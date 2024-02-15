@@ -727,3 +727,30 @@ display: flex;    grid-template-columns: repeat(4, 1fr);
   }
 }
 
+@media (max-width: 650px) {
+  .courses-container {
+      flex-wrap: wrap;
+  }
+  
+  .course {
+      width: 100%; 
+      margin-bottom: 20px;
+  }
+  
+  .course-content {
+      padding: 5px;
+  }
+
+  .course h3 {
+      font-size: 16px; 
+  }
+
+  .course p {
+      font-size: 14px; 
+  }
+
+  .course-button {
+      font-size: 12px;
+      padding: 5px 10px; 
+  }
+}
